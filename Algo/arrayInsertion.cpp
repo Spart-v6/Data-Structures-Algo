@@ -7,7 +7,7 @@ int main()
     int pos,num,i;
     cout<<"Tell us the position and number: \n";
     cin>>pos>>num;
-    //? 2 pe insert krna hai 20 
+    //? insert 20 at 2nd place
     for(i=4;i>=pos;i--){
         a[i+1] = a[i]; //-Shifting numbers to the right 
     }
