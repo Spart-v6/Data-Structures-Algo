@@ -35,7 +35,7 @@ void setVal(struct myArray *a){
     }
     
 }
-
+//driver code
 int main()
 {
     struct myArray marks;
